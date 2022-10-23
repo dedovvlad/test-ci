@@ -1,11 +1,10 @@
 name: GitHub Test
 
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-
 on: [push]
 
 jobs:
-  Test:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - run: make test
+      run: |
+        make test
