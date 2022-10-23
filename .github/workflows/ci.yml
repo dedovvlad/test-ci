@@ -19,6 +19,7 @@ jobs:
         run: make build-app
   exec:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
