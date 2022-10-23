@@ -1,3 +1,5 @@
+#/usr/bin/bash
+
 test:
 	@go test -run=./app_test.go -v
 
