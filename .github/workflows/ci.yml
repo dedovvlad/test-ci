@@ -6,5 +6,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      run: |
-        make test
+      - name: test
+        run: |
+          make test
