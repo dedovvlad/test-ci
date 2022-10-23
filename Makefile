@@ -1,4 +1,4 @@
-#/usr/bin/bash
+#!make
 
 test:
 	@go test -run=./app_test.go -v
